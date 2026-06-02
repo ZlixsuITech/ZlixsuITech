@@ -210,7 +210,7 @@ jobs:
 <div align="center">
 
 <!-- After setting up Platane/snk GitHub Action, uncomment: -->
-<!-- ![Snake animation](https://github.com/ZlixsuITech/ZlixsuITech/blob/output/github-snake-dark.svg) -->
+[Snake animation](https://github.com/ZlixsuITech/ZlixsuITech/blob/output/github-snake-dark.svg)
 
 > 🔧 **Setup:** Add the `Platane/snk@v3` GitHub Action to generate your snake animation.
 
