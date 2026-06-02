@@ -1,0 +1,28 @@
+<div align="center">
+
+<!-- Add this after setting up the GitHub Action: yoshi389111/github-profile-3d-contrib -->
+<!-- Workflow file: .github/workflows/profile-3d.yml -->
+
+> 🔧 **Setup:** Add the `github-profile-3d-contrib` GitHub Action to auto-generate this:
+
+```yaml
+# .github/workflows/profile-3d.yml
+name: GitHub-Profile-3D-Contrib
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+```
+
+<!-- Once generated, replace the block above with: -->
+<!-- ![3D Contribution Graph](./profile-3d-contrib/profile-night-rainbow.svg) -->
+
+</div>
